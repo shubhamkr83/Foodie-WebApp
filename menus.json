@@ -1,0 +1,74 @@
+[
+  {
+    "_id": {
+      "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "Burger",
+    "image": "https://drive.google.com/file/d/1WKPHRzxbPIeCKp5Hg7dl79IJSVR7oq0n/view?usp=share_link",
+    "price": "250",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "Momos",
+    "image": "https://drive.google.com/file/d/1Wg4TQstDZ6Ya8JgwyjEdkJ6UvdJkNHam/view?usp=share_link",
+    "price": "300",
+    "size": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "Pizza",
+    "image": "https://drive.google.com/file/d/1s3wEAz7GynKj8NeRpJU0g9-NVLBvb3FM/view?usp=share_link",
+    "price": "200",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "Cake",
+    "image": "https://drive.google.com/file/d/1KLq2FaZe5peKiZ6ilGkBhfRuWmccC0pR/view?usp=share_link",
+    "price": "500",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "Sandwich",
+    "image": "https://drive.google.com/file/d/111eGbq9ibAXhnhm747GPndW2zYqNwJI0/view?usp=share_link",
+    "price": "350",
+    "size": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "Milkshake",
+    "image": "https://drive.google.com/file/d/1eqoE6rnTj_KBSO1QrII8RtPWfBoePAjD/view?usp=share_link",
+    "price": "200",
+    "size": "small"
+  },
+  {
+    "_id": {
+      "$oid": "5eee66eea27a66807cf2bea8"
+    },
+    "name": "Fried Chicken",
+    "image": "https://drive.google.com/file/d/1kVQzY2A8IXpZrqvLtRJMTRCzh9d9VroB/view?usp=share_link",
+    "price": "600",
+    "size": "large"
+  },
+  {
+    "_id": {
+      "$oid": "5eee6717a27a66807cf2bea9"
+    },
+    "name": "Noodel",
+    "image": "https://drive.google.com/file/d/1zy-w09zq-tvOePqEfyCtqFguVwtkSQne/view?usp=share_link",
+    "price": "500",
+    "size": "medium"
+  }
+]

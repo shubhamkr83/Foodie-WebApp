@@ -1,0 +1,191 @@
+<section class="hero py-16">
+    <div class="container mx-auto flex items-center justify-between">
+        <div class="w-1/2">
+            <h6 class="text-lg"><em>A life full of Tasty Food...</em></h6>
+            <h1 class="text-3xl md:text-6xl font-bold">Giving your Hunger a new Option</h1>
+            <button class="px-6 py-2 rounded-full text-white font-bold mt-4 btn-primary">Order Now</button>
+        </div>
+        <div class="w-1/2">
+            <img src="https://i.postimg.cc/TY8Lb7mz/burger1.png" alt="">
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class=" px-5 py-24 mx-auto" id="service">
+        <div class="text-center mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-black-900 mb-4">Our Service</h1>
+            <div class="flex mt-6 justify-center">
+                <div class="w-16 h-1 rounded-full inline-flex"></div>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+            <div class="p-2 md:w-1/3 flex flex-col text-center items-center">
+                <div
+                    class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-orange-600 text-white mb-5 flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                </div>
+                <div class="flex-grow">
+                    <h2 class="text-lg title-font mb-3 font-bold">No Minimum Order</h2>
+                    <p class="leading-relaxed text-base">Order in for yourself or for the group, with no restrictions on
+                        order value</p>
+
+                </div>
+            </div>
+            <div class="p-2 md:w-1/3 flex flex-col text-center items-center">
+                <div
+                    class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-orange-600 text-white mb-5 flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <circle cx="6" cy="6" r="3"></circle>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                    </svg>
+                </div>
+                <div class="flex-grow">
+                    <h2 class=" text-lg title-font font-bold mb-3">Live Order Tracking</h2>
+                    <p class="leading-relaxed text-base">Know where your order is at all times, from the restaurant to
+                        your doorstep</p>
+
+                </div>
+            </div>
+            <div class="p-2 md:w-1/3 flex flex-col text-center items-center">
+                <div
+                    class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-orange-600 text-white mb-5 flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <div class="flex-grow">
+                    <h2 class="text-lg title-font font-bold mb-3">Lightning-Fast Delivery</h2>
+                    <p class="leading-relaxed text-base">Experience Swiggy's superfast delivery for food delivered fresh
+                        & on time</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- All foods -->
+<section class="menu container mx-auto py-8">
+    <h1 class="text-xl font-bold mb-8 text-center">All Foods</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 col-gap-12 row-gap-16">
+        <% foods.forEach(function(food) { %>
+            <div class="w-full md:w-64">
+                <img class="h-40 mb-4 mx-auto" src="<%= food.image %>" alt="">
+                <div class="text-center">
+                    <h2 class="mb-4 text-lg">
+                        <%= food.name %>
+                    </h2>
+                    <span class="size py-1 px-4 rounded-full uppercase text-xs">
+                        <%= food.size %>
+                    </span>
+                    <div class="flex items-center justify-around mt-6">
+                        <span class="font-bold text-lg">₹<%= food.price %></span>
+                        <button data-pizza="<%= JSON.stringify(food) %>"
+                            class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                            <span>+</span>
+                            <span class="ml-4">Add</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <% }) %>
+
+    </div>
+</section>
+
+<!-- testimonial -->
+<div class="flex justify-center  p-4 my-16">
+    <div class="flex flex-col justify-center items-center ">
+        <div class=" text-2xl md:text-5xl font-medium flex my-6">
+            <div>Testimonials By </div>
+            <div class="text-cyan-400 mx-1"> Trusted</div>
+        </div>
+        <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
+
+            <div class="overflow-hidden w-full m-4 flex justify-center   md:w-[33%]  shadow-xl bg-cyan-400">
+
+                <div class="flex flex-col md:flex-row items-center justify-center  bg-white rounded-tl-full ">
+                    <div class="  items-center justify-center flex py-2">
+                        <div class="flex flex-col  items-center justify-center ">
+                            <div class="flex items-center">
+                                <div class="p-1 bg-white rounded-full">
+
+                                    <img src="https://source.unsplash.com/100x100/?man,boy" alt=""
+                                        class="rounded-full" />
+                                </div>
+                                <div>
+                                    <div class="font-bold text-stone-500 text-orange-600 mx-4">John Doe</div>
+                                </div>
+                            </div>
+                            <div class="text-stone-400 text-center m-2 px-8"> Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Nam perferendis eaque, officiis vel molestiae debitis ducimus soluta quisquam.
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="overflow-hidden w-full m-4 flex justify-center   md:w-[33%]  shadow-xl bg-cyan-400">
+
+                <div class="flex flex-col md:flex-row items-center justify-center  bg-white rounded-tl-full ">
+                    <div class="  items-center justify-center flex py-2">
+                        <div class="flex flex-col  items-center justify-center ">
+                            <div class="flex items-center">
+                                <div class="p-1 bg-white rounded-full">
+
+                                    <img src="https://source.unsplash.com/100x100/?girl" alt="" class="rounded-full" />
+                                </div>
+                                <div>
+                                    <div class="font-bold text-stone-500 mx-4 text-orange-600">Elina Gilbert</div>
+                                </div>
+                            </div>
+                            <div class="text-stone-400 text-center m-2 px-8"> Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Nam perferendis eaque, officiis vel molestiae debitis ducimus soluta quisquam.
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="overflow-hidden w-full m-4 flex justify-center   md:w-[33%]  shadow-xl bg-cyan-400">
+
+                <div class="flex flex-col md:flex-row items-center justify-center  bg-white rounded-tl-full ">
+                    <div class="  items-center justify-center flex py-2">
+                        <div class="flex flex-col  items-center justify-center ">
+                            <div class="flex items-center">
+                                <div class="p-1 bg-white rounded-full">
+
+                                    <img src="https://source.unsplash.com/100x100/?boy" alt="" class="rounded-full" />
+                                </div>
+                                <div>
+                                    <div class="font-bold text-stone-500 mx-4 text-orange-600">Josh Reacher</div>
+                                </div>
+                            </div>
+                            <div class="text-stone-400 text-center m-2 px-8"> Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Nam perferendis eaque, officiis vel molestiae debitis ducimus soluta quisquam.
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
