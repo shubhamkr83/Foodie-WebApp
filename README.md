@@ -6,15 +6,19 @@ Using This app we will be able to order a pizza and get realtime notifications a
 
 <h1>Features:-</h1>
 <h2>In this Project we have:-</h2> 
-    1. Login system
-  - Cookies and sessions
-               - Use Database as session store 
-    1. Registration 
-    2. User roles
-    3. Shopping cart 
-    4. Realtime pizza status tracker 
-        - Real time web socket private connections
-    5. Git 
-    6. ES6 and SCSS
-    7. Express project unique architecture
-    and many other things.
+<ol>
+    <li>Login system</li>
+        <ul>
+            <li>Cookies and sessions</li>
+        </ul>
+            <ul>
+                <li>Use Database as session store</li>
+            </ul>
+    <li>Registration</li> 
+    <li>User roles</li>
+    <li>Shopping cart</li> 
+    <li>Realtime pizza status tracker</li>
+        <ul>
+            <li>Real time web socket private connections</li>
+        </ul>
+</ol>
