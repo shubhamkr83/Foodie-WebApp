@@ -55,4 +55,4 @@
 ![Screenshot (338)](https://user-images.githubusercontent.com/72254047/232264926-3e7011d0-1a0f-492e-8aeb-886826e9e403.png)
 
 <h3>Admin Page</h3>
-![Screenshot (339)](https://user-images.githubusercontent.com/72254047/232264950-8d0ecae4-3c6a-4047-831c-6454965eafba.png)
+!https://user-images.githubusercontent.com/72254047/232264950-8d0ecae4-3c6a-4047-831c-6454965eafba.png
