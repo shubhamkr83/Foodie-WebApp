@@ -21,15 +21,17 @@
 </ol>
 
 <h1>Technology Used:-</h1>
-<h2>NodeJs</h2>
-<h2>Express</h2>
-<h2>MongoDB</h2>
-<h2>EJS</h2>
-<h2>express-ejs-layouts</h2>
-<h2>Tailwind CSS</h2>
-<h2>SASS</h2>
-<h2>Passportjs (passport-local)</h2>
-<h2>Axios</h2>
-<h2>Bcrypt</h2>
-<h2>express-flash</h2>
-<h2>express-session</h2>
+<ul>
+<li>NodeJs</li>
+<li>Express</li>
+<li>MongoDB</li>
+<li>EJS</li>
+<li>express-ejs-layouts</li>
+<li>Tailwind CSS</li>
+<li>SASS</li>
+<li>Passportjs (passport-local)</li>
+<li>Axios</li>
+<li>Bcrypt</li>
+<li>express-flash</li>
+<li>express-session</li>
+</ul>
