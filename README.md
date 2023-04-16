@@ -8,17 +8,16 @@ Using This app we will be able to order a pizza and get realtime notifications a
 <h2>In this Project we have:-</h2> 
 <ol>
     <li>Login system</li>
-        <ul>
+        <ol>
             <li>Cookies and sessions</li>
-        </ul>
-            <ul>
-                <li>Use Database as session store</li>
-            </ul>
+            <li>Use Database as session store</li>
+        </ol>
     <li>Registration</li> 
     <li>User roles</li>
+    <li>Admin roles</li>
     <li>Shopping cart</li> 
     <li>Realtime pizza status tracker</li>
-        <ul>
+        <ol>
             <li>Real time web socket private connections</li>
-        </ul>
+        </ol>
 </ol>
