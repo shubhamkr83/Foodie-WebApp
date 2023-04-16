@@ -26,12 +26,12 @@
 <li>Express</li>
 <li>MongoDB</li>
 <li>EJS</li>
-<li>express-ejs-layouts</li>
 <li>Tailwind CSS</li>
 <li>SASS</li>
 <li>Passportjs (passport-local)</li>
 <li>Axios</li>
 <li>Bcrypt</li>
+<li>express-ejs-layouts</li>
 <li>express-flash</li>
 <li>express-session</li>
 </ul>
