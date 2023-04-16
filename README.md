@@ -35,3 +35,22 @@
 <li>express-flash</li>
 <li>express-session</li>
 </ul>
+
+<h1>Project Screensort</h1>
+<h3>Hero Section</h3>
+![Screenshot (333)](https://user-images.githubusercontent.com/72254047/232264825-71c1d2a3-2eb9-4fad-b389-f3c086e4ef77.png)
+
+<h3>All Food Items</h3>
+![Screenshot (334)](https://user-images.githubusercontent.com/72254047/232264838-352b167d-ca8b-40c6-aeda-474900e426e6.png)
+
+<h3>Cart Page</h3>
+![Screenshot (337)](https://user-images.githubusercontent.com/72254047/232264866-eaacc611-fa6e-4784-95f3-0811d71639d7.png)
+
+<h3>Register Page</h3>
+![Screenshot (335)](https://user-images.githubusercontent.com/72254047/232264894-22330503-6413-483a-b2f1-1b0fc4cceb90.png)
+
+<h3>Customer Realtime Food Tracker Page</h3>
+![Screenshot (338)](https://user-images.githubusercontent.com/72254047/232264926-3e7011d0-1a0f-492e-8aeb-886826e9e403.png)
+
+<h3>Admin Page</h3>
+![Screenshot (339)](https://user-images.githubusercontent.com/72254047/232264950-8d0ecae4-3c6a-4047-831c-6454965eafba.png)
