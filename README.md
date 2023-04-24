@@ -4,8 +4,8 @@
 
 <h3>Live Project:- https://foodie-webapp.onrender.com </h3>
 
-<h1>Features:-</h1>
-<h2>In this Project we have:-</h2> 
+<h2>Features:-</h2>
+<h3>In this Project we have:-</h3> 
 <ol>
     <li>Login system</li>
         <ol>
@@ -22,7 +22,7 @@
         </ol>
 </ol>
 
-<h1>Technology Used:-</h1>
+<h2>Technology Used:-</h2>
 <ul>
 <li>NodeJs</li>
 <li>Express</li>
@@ -38,7 +38,7 @@
 <li>express-session</li>
 </ul>
 
-<h1>Project Screensort</h1>
+<h2>Project Screensort</h2>
 <h3>Hero Section</h3>
 ![Screenshot (333)](https://user-images.githubusercontent.com/72254047/232264825-71c1d2a3-2eb9-4fad-b389-f3c086e4ef77.png)
 
