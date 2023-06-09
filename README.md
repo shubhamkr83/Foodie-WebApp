@@ -5,7 +5,7 @@
 <h3>Live Project:- https://foodie-webapp.onrender.com </h3>
 
 
-<h3>Features:-</h3>
+<h2>Features:-</h2>
 <ol>
     <li>Login system</li>
         <ol>
