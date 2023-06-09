@@ -39,7 +39,7 @@
 <li>express-session</li>
 </ul>
 
-<h2>Project Screensort</h2>
+<h2>Project Screensort:- </h2>
 <h3>Hero Section</h3>
 
 ![Screenshot (333)](https://github.com/shubhamkr83/Foodie-WebApp/assets/72254047/56eb1756-df78-4285-b138-e216ee34b385)
