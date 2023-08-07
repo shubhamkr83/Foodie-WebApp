@@ -40,7 +40,7 @@
 </ul>
 
 <h2>Folder Structure:-</h2>
-``bash 
+```bash 
 .
 ├── app</p>
 │   ├── config</p>
