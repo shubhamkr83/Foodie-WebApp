@@ -39,6 +39,34 @@
 <li>express-session</li>
 </ul>
 
+
+<h2>Project Screenshot:- </h2>
+<h3>Hero Section</h3>
+
+![Screenshot (333)](https://github.com/shubhamkr83/Foodie-WebApp/assets/72254047/56eb1756-df78-4285-b138-e216ee34b385)
+
+<h3>All Food Items</h3>
+
+![Screenshot (334)](https://github.com/shubhamkr83/Foodie-WebApp/assets/72254047/d34e0cb1-334a-4c84-a9e0-23a62ac2e4d5)
+
+
+<h3>Cart Page</h3>
+
+![Screenshot (337)](https://user-images.githubusercontent.com/72254047/232264866-eaacc611-fa6e-4784-95f3-0811d71639d7.png)
+
+<h3>Register Page</h3>
+
+![Screenshot (335)](https://user-images.githubusercontent.com/72254047/232264894-22330503-6413-483a-b2f1-1b0fc4cceb90.png)
+
+<h3>Customer Realtime Food Tracker Page</h3>
+
+![Screenshot (338)](https://user-images.githubusercontent.com/72254047/232264926-3e7011d0-1a0f-492e-8aeb-886826e9e403.png)
+
+<h3>Admin Page</h3>
+
+![Screenshot (339)](https://user-images.githubusercontent.com/72254047/232266233-f972e5be-3e3f-4416-a744-5ea8ac2f880f.png)
+
+
 <h2>Folder Structure:-</h2>
 <pre>
 .
@@ -108,32 +136,4 @@
 ├── yarn.lock                 
 └── README.md
 </pre>
-
-
-
-<h2>Project Screenshot:- </h2>
-<h3>Hero Section</h3>
-
-![Screenshot (333)](https://github.com/shubhamkr83/Foodie-WebApp/assets/72254047/56eb1756-df78-4285-b138-e216ee34b385)
-
-<h3>All Food Items</h3>
-
-![Screenshot (334)](https://github.com/shubhamkr83/Foodie-WebApp/assets/72254047/d34e0cb1-334a-4c84-a9e0-23a62ac2e4d5)
-
-
-<h3>Cart Page</h3>
-
-![Screenshot (337)](https://user-images.githubusercontent.com/72254047/232264866-eaacc611-fa6e-4784-95f3-0811d71639d7.png)
-
-<h3>Register Page</h3>
-
-![Screenshot (335)](https://user-images.githubusercontent.com/72254047/232264894-22330503-6413-483a-b2f1-1b0fc4cceb90.png)
-
-<h3>Customer Realtime Food Tracker Page</h3>
-
-![Screenshot (338)](https://user-images.githubusercontent.com/72254047/232264926-3e7011d0-1a0f-492e-8aeb-886826e9e403.png)
-
-<h3>Admin Page</h3>
-
-![Screenshot (339)](https://user-images.githubusercontent.com/72254047/232266233-f972e5be-3e3f-4416-a744-5ea8ac2f880f.png)
 
