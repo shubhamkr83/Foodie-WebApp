@@ -40,6 +40,7 @@
 </ul>
 
 <h2>Folder Structure:-</h2>
+<code>
 .
 ├── app
 │   ├── config
@@ -59,21 +60,43 @@
 │           ├── auth.js
 │           └── guest.js
 │   └── models  
-│           ├── menu.js
-│           ├── order.js
-│           └── user.js   
+│       ├── menu.js
+│       ├── order.js
+│       └── user.js   
 ├── public       
-│           ├── css
-│               └── app.css
-│           ├── img
-│           └── js
-│               ├── app.js
-│               └── app.js.LICENCE.txt
+│   ├── css
+│       └── app.css
+│   ├── img
+│   └── js
+│       ├── app.js
+│       └── app.js.LICENCE.txt
 ├── resources 
-│           ├── js
-│           ├── scss
-│           └── views
-├── routs                    
+│   ├── js
+│       ├── CardWidget.js
+│       ├── admin.js
+│       ├── apiService.js
+│       ├── app.js
+│       └── stripe.js
+│   ├── scss
+│       ├── _varible.scss
+│       └── app.scss
+│   └── views
+│           ├── admin.js
+│               └── orders.ejs
+│           ├── auth
+│               ├── login.ejs
+│               └── register.ejs
+│           ├── customers
+│               ├── cart.ejs
+│               ├── orders.ejs
+│               └── singleOrder.ejs
+│           ├── errors
+│               └── 404.ejs
+│           ├── home.ejs
+│           └── layout.ejs
+├── routes
+│   ├── api.js
+│   └── web.js
 ├── .gitignore                   
 ├── menus.json
 ├── mix-manifest.json                     
@@ -84,6 +107,7 @@
 ├── yarn-error.log                    
 ├── yarn.lock                   
 └── README.md
+</code>
 
 
 <h2>Project Screenshot:- </h2>
