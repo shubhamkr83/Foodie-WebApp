@@ -40,72 +40,74 @@
 </ul>
 
 <h2>Folder Structure:-</h2>
-<p>.</p>
-<p>├── app</p>
-<p>│   ├── config</p>
-<p>|       └── passport.js</p>
-<p>│   ├── http</p>
-<p>│       ├── controllers</p>
-<p>│           ├── admin</p>
-<p>│               ├── orderController.js</p>
-<p>│               └── statusController.js</p>
-<p>│           ├── customers</p>
-<p>│               ├── cartController.js</p>
-<p>│               └── orderController.js</p>
-<p>│           ├── authController.js</p>
-<p>│           └── homeController.js</p>
-<p>│       └── middlewares  </p>
-<p>│           ├── admin.js</p>
-<p>│           ├── auth.js</p>
-<p>│           └── guest.js</p>
-<p>│   └── models  </p>
-<p>│       ├── menu.js</p>
-<p>│       ├── order.js</p>
-<p>│       └── user.js   </p>
-<p>├── public       </p>
-<p>│   ├── css</p>
-<p>│       └── app.css</p>
-<p>│   ├── img</p>
-<p>│   └── js</p>
-<p>│       ├── app.js</p>
-<p>│       └── app.js.LICENCE.txt</p>
-<p>├── resources </p>
-<p>│   ├── js</p>
-<p>│       ├── CardWidget.js</p>
-<p>│       ├── admin.js</p>
-<p>│       ├── apiService.js</p>
-<p>│       ├── app.js</p>
-<p>│       └── stripe.js</p>
-<p>│   ├── scss</p>
-<p>│       ├── _varible.scss</p>
-<p>│       └── app.scss</p>
-<p>│   └── views</p>
-<p>│           ├── admin.js</p>
-<p>│               └── orders.ejs</p>
-<p>│           ├── auth</p>
-<p>│               ├── login.ejs</p>
-<p>│               └── register.ejs</p>
-<p>│           ├── customers</p>
-<p>│               ├── cart.ejs</p>
-<p>│               ├── orders.ejs</p>
-<p>│               └── singleOrder.ejs</p>
-<p>│           ├── errors</p>
-<p>│               └── 404.ejs</p>
-<p>│           ├── home.ejs</p>
-<p>│           └── layout.ejs</p>
-<p>├── routes</p>
-<p>│   ├── api.js</p>
-<p>│   └── web.js</p>
-<p>├── .gitignore      </p>             
-<p>├── menus.json</p>
-<p>├── mix-manifest.json  </p>                   
-<p>├── package-lock.json   </p>                 
-<p>├── package           </p>        
-<p>├── server.js</p>
-<p>├── webpack.mix.js     </p>                
-<p>├── yarn-error.log     </p>               
-<p>├── yarn.lock         </p>          
-<p>└── README.md</p>
+``bash 
+.
+├── app</p>
+│   ├── config</p>
+|       └── passport.js</p>
+│   ├── http</p>
+│       ├── controllers</p>
+│           ├── admin</p>
+│               ├── orderController.js</p>
+│               └── statusController.js</p>
+│           ├── customers</p>
+│               ├── cartController.js</p>
+│               └── orderController.js</p>
+│           ├── authController.js</p>
+│           └── homeController.js</p>
+│       └── middlewares  </p>
+│           ├── admin.js</p>
+│           ├── auth.js</p>
+│           └── guest.js</p>
+│   └── models  </p>
+│       ├── menu.js</p>
+│       ├── order.js</p>
+│       └── user.js   </p>
+├── public       </p>
+│   ├── css</p>
+│       └── app.css</p>
+│   ├── img</p>
+│   └── js</p>
+│       ├── app.js</p>
+│       └── app.js.LICENCE.txt</p>
+├── resources </p>
+│   ├── js</p>
+│       ├── CardWidget.js</p>
+│       ├── admin.js</p>
+│       ├── apiService.js</p>
+│       ├── app.js</p>
+│       └── stripe.js</p>
+│   ├── scss</p>
+│       ├── _varible.scss</p>
+│       └── app.scss</p>
+│   └── views</p>
+│           ├── admin.js</p>
+│               └── orders.ejs</p>
+│           ├── auth</p>
+│               ├── login.ejs</p>
+│               └── register.ejs</p>
+│           ├── customers</p>
+│               ├── cart.ejs</p>
+│               ├── orders.ejs</p>
+│               └── singleOrder.ejs</p>
+│           ├── errors</p>
+│               └── 404.ejs</p>
+│           ├── home.ejs</p>
+│           └── layout.ejs</p>
+├── routes</p>
+│   ├── api.js</p>
+│   └── web.js</p>
+├── .gitignore      </p>             
+├── menus.json</p>
+├── mix-manifest.json  </p>                   
+├── package-lock.json   </p>                 
+├── package           </p>        
+├── server.js</p>
+├── webpack.mix.js     </p>                
+├── yarn-error.log     </p>               
+├── yarn.lock         </p>          
+└── README.md</p>
+... ```
 
 
 
