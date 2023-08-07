@@ -40,73 +40,72 @@
 </ul>
 
 <h2>Folder Structure:-</h2>
-<code>
-.
-├── app
-│   ├── config
-|       └── passport.js
-│   ├── http
-│       ├── controllers
-│           ├── admin
-│               ├── orderController.js
-│               └── statusController.js
-│           ├── customers
-│               ├── cartController.js
-│               └── orderController.js
-│           ├── authController.js
-│           └── homeController.js
-│       └── middlewares  
-│           ├── admin.js
-│           ├── auth.js
-│           └── guest.js
-│   └── models  
-│       ├── menu.js
-│       ├── order.js
-│       └── user.js   
-├── public       
-│   ├── css
-│       └── app.css
-│   ├── img
-│   └── js
-│       ├── app.js
-│       └── app.js.LICENCE.txt
-├── resources 
-│   ├── js
-│       ├── CardWidget.js
-│       ├── admin.js
-│       ├── apiService.js
-│       ├── app.js
-│       └── stripe.js
-│   ├── scss
-│       ├── _varible.scss
-│       └── app.scss
-│   └── views
-│           ├── admin.js
-│               └── orders.ejs
-│           ├── auth
-│               ├── login.ejs
-│               └── register.ejs
-│           ├── customers
-│               ├── cart.ejs
-│               ├── orders.ejs
-│               └── singleOrder.ejs
-│           ├── errors
-│               └── 404.ejs
-│           ├── home.ejs
-│           └── layout.ejs
-├── routes
-│   ├── api.js
-│   └── web.js
-├── .gitignore                   
-├── menus.json
-├── mix-manifest.json                     
-├── package-lock.json                    
-├── package                   
-├── server.js
-├── webpack.mix.js                     
-├── yarn-error.log                    
-├── yarn.lock                   
-└── README.md
+<p>.</p>
+<p>├── app</p>
+<p>│   ├── config</p>
+<p>|       └── passport.js</p>
+<p>│   ├── http</p>
+<p>│       ├── controllers</p>
+<p>│           ├── admin</p>
+<p>│               ├── orderController.js</p>
+<p>│               └── statusController.js</p>
+<p>│           ├── customers</p>
+<p>│               ├── cartController.js</p>
+<p>│               └── orderController.js</p>
+<p>│           ├── authController.js</p>
+<p>│           └── homeController.js</p>
+<p>│       └── middlewares  </p>
+<p>│           ├── admin.js</p>
+<p>│           ├── auth.js</p>
+<p>│           └── guest.js</p>
+<p>│   └── models  </p>
+<p>│       ├── menu.js</p>
+<p>│       ├── order.js</p>
+<p>│       └── user.js   </p>
+<p>├── public       </p>
+<p>│   ├── css</p>
+<p>│       └── app.css</p>
+<p>│   ├── img</p>
+<p>│   └── js</p>
+<p>│       ├── app.js</p>
+<p>│       └── app.js.LICENCE.txt</p>
+<p>├── resources </p>
+<p>│   ├── js</p>
+<p>│       ├── CardWidget.js</p>
+<p>│       ├── admin.js</p>
+<p>│       ├── apiService.js</p>
+<p>│       ├── app.js</p>
+<p>│       └── stripe.js</p>
+<p>│   ├── scss</p>
+<p>│       ├── _varible.scss</p>
+<p>│       └── app.scss</p>
+<p>│   └── views</p>
+<p>│           ├── admin.js</p>
+<p>│               └── orders.ejs</p>
+<p>│           ├── auth</p>
+<p>│               ├── login.ejs</p>
+<p>│               └── register.ejs</p>
+<p>│           ├── customers</p>
+<p>│               ├── cart.ejs</p>
+<p>│               ├── orders.ejs</p>
+<p>│               └── singleOrder.ejs</p>
+<p>│           ├── errors</p>
+<p>│               └── 404.ejs</p>
+<p>│           ├── home.ejs</p>
+<p>│           └── layout.ejs</p>
+<p>├── routes</p>
+<p>│   ├── api.js</p>
+<p>│   └── web.js</p>
+<p>├── .gitignore      </p>             
+<p>├── menus.json</p>
+<p>├── mix-manifest.json  </p>                   
+<p>├── package-lock.json   </p>                 
+<p>├── package           </p>        
+<p>├── server.js</p>
+<p>├── webpack.mix.js     </p>                
+<p>├── yarn-error.log     </p>               
+<p>├── yarn.lock         </p>          
+<p>└── README.md</p>
 </code>
 
 
