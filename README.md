@@ -106,7 +106,7 @@
 <p>├── yarn-error.log     </p>               
 <p>├── yarn.lock         </p>          
 <p>└── README.md</p>
-</code>
+
 
 
 <h2>Project Screenshot:- </h2>
