@@ -39,7 +39,54 @@
 <li>express-session</li>
 </ul>
 
-<h2>Project Screensort:- </h2>
+<h2>Folder Structure:-</h2>
+.
+├── app
+│   ├── config
+|       └── passport.js
+│   ├── http
+│       ├── controllers
+│           ├── admin
+│               ├── orderController.js
+│               └── statusController.js
+│           ├── customers
+│               ├── cartController.js
+│               └── orderController.js
+│           ├── authController.js
+│           └── homeController.js
+│       └── middlewares  
+│           ├── admin.js
+│           ├── auth.js
+│           └── guest.js
+│   └── models  
+│           ├── menu.js
+│           ├── order.js
+│           └── user.js   
+├── public       
+│           ├── css
+│               └── app.css
+│           ├── img
+│           └── js
+│               ├── app.js
+│               └── app.js.LICENCE.txt
+├── resources 
+│           ├── js
+│           ├── scss
+│           └── views
+├── routs                    
+├── .gitignore                   
+├── menus.json
+├── mix-manifest.json                     
+├── package-lock.json                    
+├── package                   
+├── server.js
+├── webpack.mix.js                     
+├── yarn-error.log                    
+├── yarn.lock                   
+└── README.md
+
+
+<h2>Project Screenshot:- </h2>
 <h3>Hero Section</h3>
 
 ![Screenshot (333)](https://github.com/shubhamkr83/Foodie-WebApp/assets/72254047/56eb1756-df78-4285-b138-e216ee34b385)
