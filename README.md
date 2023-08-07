@@ -40,7 +40,7 @@
 </ul>
 
 <h2>Folder Structure:-</h2>
-```bash 
+<pre>
 .
 ├── app
 │   ├── config
@@ -107,7 +107,7 @@
 ├── yarn-error.log                 
 ├── yarn.lock                 
 └── README.md
-```
+</pre>
 
 
 
