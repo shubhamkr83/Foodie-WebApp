@@ -39,6 +39,12 @@
 <li>express-session</li>
 </ul>
 
+<h2>Setup Application Process:-</h2>
+<h4>Step1:- Clone this repo or download the zip file </h4>
+  
+<h4>Step2:- Run this command to install all the dependencies:- <code> yarn </code>  </h4>
+
+<h4>Step3:- Run this command to start the app:- <code> yarn dev </code> </h4>
 
 <h2>Project Screenshot:- </h2>
 <h3>Hero Section</h3>
